@@ -1,0 +1,20 @@
+h1{
+    font-size: 30px;
+    color: rgb(198, 123, 11);
+    text-align: center;
+}
+.p1{
+    text-transform: uppercase;
+    color: blue;
+    text-align: justify;
+}
+.p2{
+    text-transform: lowercase;
+    color: red;
+    text-align: justify;
+}
+.p3{
+    text-transform: capitalize;
+    color: green;
+    text-align: justify;
+}
