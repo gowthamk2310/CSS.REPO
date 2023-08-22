@@ -1,0 +1,33 @@
+body {
+    background-color: #388caa;
+    background-image: url(art2.png);
+    opacity: 99%;
+    background-size:contain;
+    background-position: top 20% right 60%; 
+    background-repeat: no-repeat;
+}
+P{
+    column-count: 3;
+    column-gap: 22px;
+    column-rule: 6px sandybrown;
+    column-fill: balance;
+    text-align: justify;
+    text-indent: 40px;
+    text-decoration: wavy;
+}
+p::first-letter{
+    color: #e00724;
+}
+p::first-line{
+    color: #a6cd08;
+}
+h2 {
+    color: yellow;
+    text-shadow: 2px 2px black;
+    text-align: center;
+    text-decoration: underline;
+}
+h5 {
+    text-transform: uppercase;
+    text-indent: 30px;
+}
