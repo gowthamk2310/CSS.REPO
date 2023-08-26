@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesudo class</title>
+    <style>
+          .inline_first{
+                display: inline;
+                border: solid 2px;
+            }
+            .inline_second{
+                display: inline;
+                border: solid 2px;
+            }
+            h1 {
+                text-align: center;
+                color: #055155;
+                background-color: antiquewhite;
+            }
+            td{
+                color: black;
+                height: 200px;
+                width: 200px;
+                text-align: center;
+            }
+            .p1{
+               font-size: xx-large;
+               font-weight: bolder; 
+               color: #055155;
+            }
+            #white{
+                background-color: white;
+            }
+            #blue{
+                background-color: blue;
+            }
+            #yellow{
+                background-color: yellow;
+            }
+            a{
+                text-decoration: none;
+                color: black;
+            }
+            a::selection{
+                color: #0de26d;
+            }
+            a:hover{
+                color: #a80808;
+            }
+            body{
+                background-image: url("https://images.pexels.com/photos/257699/pexels-photo-257699.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+    </style>
+</head>
+<body>
+    <h1>Project</h1>
+    <section>
+        <center>
+        <table spacing="15">
+            <tr>
+                <td><img src="https://img.freepik.com/premium-vector/seamless-pattern-vector-with-robot-cartoon_7393-1115.jpg?w=900" height="200" width="200"/></td>
+                <td class="p1" id="white"><a href="">Web Design</a></td>
+                <td class="p1" id="blue"><a href="">Chat Bots</a></td>
+                <td class="p1" id="yellow"><a href="">Game Design</a></td>
+            </tr>
+            <tr>
+                <td class="p1" id="white"><a href="">Text Analysis</a></td>
+                <td class="p1" id="blue"><a href="">Java Script</a></td>
+                <td class="p1"><a href="">Data Privacy</a></td>
+                <td><img src="https://img.freepik.com/premium-vector/seamless-pattern-vector-with-robot-cartoon_7393-1115.jpg?w=900" height="200" width="200"/></td>
+            </tr>
+        </table>
+        </center>
+    </section>
+</body>
+</html>

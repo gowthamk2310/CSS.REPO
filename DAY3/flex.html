@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLEX</title>
+    <style>
+        .con{
+            border: 2px solid gold;
+            width: 420px;
+            height: 70px;
+            padding: 10px;
+            display: flex;
+            flex-direction: row-reverse;
+
+        }
+        .con div{
+            border: 1px solid green;
+            height: 65px;
+            width: 65px;
+            margin: 2px;
+            background-color: rgb(144, 82, 6);
+            color: rgb(22, 193, 136);
+            text-align: center;
+        }
+        div:hover{
+            background-color: aqua;
+            color: rgb(105, 11, 194);
+        }
+        #h:hover{
+            color: orange;
+            background-color: rgb(224, 18, 87);
+            text-decoration: underline;
+
+        }
+        #h2:hover{
+            color: rgb(231, 246, 20);
+            background-color: rgb(40, 48, 154);
+        }
+        #h3:hover{
+            color: rgb(118, 14, 14);
+            background-color: rgb(241, 55, 204);
+        }
+        #h4{
+            flex-grow: 1;
+            order: 3;
+        }
+          </style>
+</head>
+<body>
+    <section>
+        <h1> FLEX</h1>
+        <div class="con">
+            <div id="h"><img src="art2.png" height="30px" width="30px">
+            <a href="https://bulbapedia.bulbagarden.net/wiki/Charizard_(Pok%C3%A9mon)" target="_blank">charizad</a></a></div>
+            <div>source</div>
+            <div id="h2"><img src="art.png" height="30px" width="30px"> 
+            <a href="https://bulbapedia.bulbagarden.net/wiki/Articuno_(Pok%C3%A9mon)" target="blank">Articuna</a></div>
+            <div>items</div>
+            <div id="h3"><img src="art3.png" height="30px" width="30px"> korokrak</div>
+            <div id="h4">container</div>
+        </div>
+    </section>
+</body>
+</html>

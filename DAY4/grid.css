@@ -1,0 +1,93 @@
+*{
+    margin: 0px;
+    pad: 0px;
+}
+.cont{
+    border: 4px solid rgb(230, 41, 20);
+    /* margin: 6%; */
+    display: grid;
+    /* grid-template-columns: 40px 40px 40px; */
+    /* grid-template-rows: 0.5fr 1fr 0.5fr; */
+    /* gap: 10px 10px; */
+    /* justify-items: start;
+    align-items: end; */
+    /* grid-template-areas: 
+    "az az az"
+    "az az az"
+    "az az az"
+    "az az az"; */
+    /* justify-content: center;
+    place-items: center; */
+    height: 800px;
+    grid-template: repeat(4,minmax(100px,150px))/repeat(4,minmax(100px,150px));
+    align-items: center;
+
+}
+.grid{
+    color: lightcyan;
+    font-size: x-large;
+    padding: 6px;
+}
+
+.G1{
+    background-color: rgb(232, 232, 27);
+    text-align: center;
+    color: blanchedalmond;
+}
+.G7{
+    background-color: rgb(232, 232, 27);
+    text-align: center;
+    color: gray;
+    /* grid-area: az; */
+}
+.G2{
+    background-color: rgb(255, 89, 0);
+    text-align: center;
+    color: blanchedalmond;
+}
+.G9{
+    background-color: rgb(10, 201, 249);
+    text-align: center;
+    color: gray;
+}    
+.G3{
+    background-color: rgb(10,201, 249);
+    text-align: center;
+    color: blanchedalmond;
+}
+.G8{
+    background-color: rgb(255, 89, 0);
+    text-align: center;
+    color:gray;
+}
+.G11{
+    background-color: rgb(34, 255, 0);
+    text-align: center;
+    color: gray;
+}    
+.G5{
+    background-color: rgb(34, 255, 0);
+    text-align: center;
+    color: blanchedalmond;
+}
+.G12{
+    background-color: rgb(255, 0, 217);
+    text-align: center;
+    color: gray;
+}    
+.G6{
+    background-color: rgb(255, 0, 217);
+    text-align: center;
+    color: blanchedalmond;
+}
+.G4{
+    background-color: rgb(255, 0, 0);
+    text-align: center;
+    color: blanchedalmond;
+}
+.G10{
+    background-color: rgb( 255, 0, 0);
+    text-align: center;
+    color: gray;
+}
+
