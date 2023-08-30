@@ -20,7 +20,7 @@
     place-items: center; */
     height: 800px;
     grid-template: repeat(4,minmax(100px,150px))/repeat(4,minmax(100px,150px));
-    align-items: center;
+    /* align-items: center; */
 
 }
 .grid{

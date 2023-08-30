@@ -1,0 +1,43 @@
+
+div {
+    margin-top: 4%;
+    font-size: 45px;
+    color: rgb(27, 77, 228);
+    text-shadow: 1px 1px lemonchiffon ;
+    text-transform: uppercase;
+}
+img {
+    margin-left: 12px;
+    margin-top: 12px;
+    height: 60px;
+    width: 35px;
+    float: left;
+}
+span {
+    color: rgb(78, 75, 75);
+}
+#pa1{
+    text-indent: 50px;
+    font-size: 65px;
+    text-transform: capitalize;
+    margin-left: 20px;
+    margin-top: 300px;
+}
+span{
+    margin-left: 40px;
+    font-size: 20px;}
+button{
+    color: aliceblue;
+    background-color: orange;
+    height: 30px;
+    width: 100px ;    
+}
+a::selection{
+    color: rgb(240, 3, 3);
+}
+.a1 {font-size:20px;
+    margin-top:-70px;
+    margin-left:1080px; 
+}
+a{  text-decoration:none;}
+#rte{margin-left: 80px;}
